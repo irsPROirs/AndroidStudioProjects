@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.helloandroid.MainActivity">
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/Udacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="14sp"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:text="Udacity
+
+2465 Latham St
+
+Mountain View, CA 94043
+
+650-555-5555
+
+www.udacity.com"
+        />
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/one"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:id="@+id/one"
+            />
+        <ImageView
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/two"
+            android:id="@+id/two"
+            android:layout_alignRight="@id/one"/>
+        <ImageView
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/three"
+            android:layout_alignRight="@id/two"
+            android:id="@+id/three"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

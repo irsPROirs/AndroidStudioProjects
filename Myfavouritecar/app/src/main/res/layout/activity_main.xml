@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myfavouritecar.MainActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="290dp"
+    android:src="@drawable/car"
+    android:scaleType="centerCrop"
+    android:id="@+id/car"
+    />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/happy_birthday_to_you"
+    android:layout_below="@id/car"
+    android:padding="10dp"
+    android:textSize="31sp"
+    android:fontFamily="casual"
+    android:textColor="@android:color/black"
+    android:id="@+id/text"
+    android:textStyle="bold"
+  />
+    />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="From,Mike."
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:padding="10dp"
+    android:textSize="20sp"
+    android:fontFamily="casual"
+
+    android:textColor="@android:color/black"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P.S.Be always with wheels..."
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/text"
+        android:textSize="29sp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>
