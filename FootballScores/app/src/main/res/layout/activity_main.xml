@@ -14,6 +14,10 @@
         android:fontFamily="sans-serif-bold"
         android:gravity="center_horizontal"
         android:text="Score"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="20"
         android:textColor="#000000"
         android:textSize="20sp" />
 
@@ -24,6 +28,10 @@
         android:fontFamily="sans-serif-bold"
         android:gravity="center_horizontal"
         android:text="Fouls"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="20"
         android:textColor="#000000"
         android:textSize="20sp" />
 
@@ -47,8 +55,12 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:text="Team A"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="20"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:textSize="22sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -58,6 +70,10 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:text="0"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="20"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -79,6 +95,10 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:text="0"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="20"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -88,7 +108,7 @@
                 android:layout_marginLeft="24sp"
                 android:layout_marginRight="24sp"
                 android:layout_marginTop="8sp"
-                android:background="#F44336"
+                android:background="#FF8A65"
                 android:onClick="foulTeamA"
                 android:text="foul" />
 
@@ -100,6 +120,10 @@
             android:layout_marginTop="55sp"
             android:fontFamily="sans-serif-light"
             android:text=":"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="20"
             android:textColor="#000000"
             android:textSize="56sp" />
 
@@ -116,8 +140,12 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:text="Team B"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="20"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:textSize="22sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -127,6 +155,10 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:text="0"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="20"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -148,6 +180,10 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:text="0"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="20"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -157,7 +193,7 @@
                 android:layout_marginLeft="24sp"
                 android:layout_marginRight="24sp"
                 android:layout_marginTop="8sp"
-                android:background="#F44336"
+                android:background="#FF8A65"
                 android:onClick="foulTeamB"
                 android:text="FOUL" />
 
