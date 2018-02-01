@@ -19,7 +19,7 @@
         android:textSize="14sp"
         android:padding="20dp"
         android:layout_height="wrap_content"
-        android:text="Udacity\n2465\nLatham St\nMountain View, CA 94043\n650-555-5555\nwww.udacity.com"
+        android:text="@string/information"
         />
     <LinearLayout
         android:layout_weight="3"
