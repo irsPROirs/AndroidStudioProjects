@@ -1,67 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_weight="1"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.android.helloandroid.MainActivity">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    >
+
     <ImageView
-        android:layout_weight="1"
         android:id="@+id/Udacity"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
         android:scaleType="centerCrop"
         android:src="@drawable/udacity" />
+
     <TextView
+        android:layout_weight="1"
         android:layout_width="wrap_content"
-        android:textSize="14sp"
+        android:layout_height="wrap_content"
         android:padding="20dp"
-        android:layout_height="wrap_content"
-        android:text="Udacity\n2465\nLatham St\nMountain View, CA 94043\n650-555-5555\nwww.udacity.com"
-        />
+        android:text="Udacity,\n2465 Latham St Mountain View,\nCA 94043 650-555-5555,\nwww.udacity.com"
+        android:textSize="25sp" />
+
     <LinearLayout
-        android:layout_weight="3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="horizontal">
+
         <ImageView
+            android:id="@+id/one"
             android:layout_width="wrap_content"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:src="@drawable/one"
-            android:paddingRight="10dp"
+            android:layout_weight="1"
             android:paddingBottom="20dp"
             android:paddingLeft="20dp"
+            android:paddingRight="10dp"
             android:paddingTop="20dp"
-            android:id="@+id/one"
-            />
+            android:src="@drawable/one" />
+
         <ImageView
-            android:paddingRight="20dp"
-            android:paddingBottom="20dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="20dp"
-            android:layout_width="wrap_content"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:src="@drawable/two"
             android:id="@+id/two"
-            android:layout_alignRight="@id/one"/>
-        <ImageView
-            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/one"
+            android:layout_weight="1"
             android:paddingBottom="20dp"
             android:paddingLeft="10dp"
+            android:paddingRight="20dp"
             android:paddingTop="20dp"
-            android:layout_width="wrap_content"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:src="@drawable/three"
-            android:layout_alignRight="@id/two"
+            android:src="@drawable/two" />
+
+        <ImageView
             android:id="@+id/three"
-            />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/two"
+            android:layout_weight="1"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/three" />
     </LinearLayout>
 
 
-
 </LinearLayout>
+    </ScrollView>
