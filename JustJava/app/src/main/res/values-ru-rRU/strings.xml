@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_0">1</string>
+    <string name="quantity">Количество</string>
+    <string name="name">Имя</string>
+    <string name="toppings">Добавки</string>
+    <string name="milk">Молоко</string>
+    <string name="chocolate">Шоколад</string>
+    <string name="order_summary">Итого</string>
+    <string name="order">заказ</string>
+    <string name="app_name">Просто Java</string>
+</resources>

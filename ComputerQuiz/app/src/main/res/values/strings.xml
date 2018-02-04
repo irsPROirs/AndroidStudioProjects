@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Computer Quiz</string>
+    <string name="answer_these_questions">Answer these questions:</string>
+    <string name="which_of_the_following_is_a_presentation_program">1.Which of the following is a presentation program?</string>
+    <string name="ms_word" translatable="false">MS Word</string>
+    <string name="ms_excel" translatable="false">MS Excel</string>
+    <string name="ms_outlook" translatable="false">MS Outlook</string>
+    <string name="ms_power_point" translatable="false">MS Power Point</string>
+    <string name="speedometr_is_an_example_of_computers">2.Speedometr is an example of</string>
+    <string name="comp">computers.</string>
+    <string name="which_of_the_following_is_a_storage_device">3.Which of the following is a storage device?</string>
+    <string name="hard_disk" translatable="false">Hard Disk</string>
+    <string name="usb_disk" translatable="false">USB Disk</string>
+    <string name="ssd_disk" translatable="false">SSD Disk</string>
+    <string name="_4_collection_of_1024_bytes">4.Collection of 1024 Bytes:</string>
+    <string name="lastOne">5._______ is the process in which a user sends computer information from his computer to another computer through modem.</string>
+    <string name="upl" translatable="false">Uploading</string>
+    <string name="downloading" translatable="false">Downloading</string>
+    <string name="allOfTheAbove">All of the above</string>
+    <string name="nothing_of_the_above">Nothing of the above</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string-array name="listOfCollections">
+        <item>1 MB</item>
+        <item>1 TB</item>
+        <item>1 KB</item>
+        <item>1 GB</item>
+    </string-array>
+</resources>
