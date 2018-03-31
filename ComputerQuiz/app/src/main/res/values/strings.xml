@@ -20,6 +20,7 @@
     <string name="nothing_of_the_above">Nothing of the above</string>
     <string name="submit">Submit</string>
     <string name="reset">Reset</string>
+    <string name="youAnswered">You answered</string>
     <string-array name="listOfCollections">
         <item>1 MB</item>
         <item>1 TB</item>

@@ -18,6 +18,14 @@ int count = 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void RadioButtonClicked1(View view) {
+       boolean checked1 = ((RadioButton) view).isChecked();
+
+    }
+    public void RadioButtonClicked2(View view) {
+        boolean checked2 = ((RadioButton) view).isChecked();
+
+    }
     private int submitQuiz (int count) {
         EditText answerTwo = (EditText) findViewById(R.id.edit_text);
         String editText = answerTwo.getText().toString();
@@ -43,18 +51,19 @@ int count = 0;
             count = count + 1;
 
         }
+        if (checked1) {
+            count = count +1;
+        }
+        if (checked2) {
+            count = count +1;
+        }
         return count;
 
     }
-    public void RadioButtonClicked(View view) {
-        boolean checked = ((RadioButton) view).isChecked();
-        if (checked) {
-            count = count +1;
-        }
-    }
+
     public void DisplayResults(View view) {
         int Score = submitQuiz(count);
-        String finalMessage = "You answered " + Score + " of 5";
+        String finalMessage =  + Score + " of 5";
         Toast.makeText(this, finalMessage, Toast.LENGTH_LONG).show();
     }
     }
